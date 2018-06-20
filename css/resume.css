@@ -18,7 +18,13 @@ body{
 .header{
 	padding: 0;
 }
-	
+.pr-detail{
+		width: 90%;
+		height: auto;
+		margin-left: 20px;
+		margin-top: 15px;
+		padding: 10px 10px 10px 0px;
+	}	
 	
 
 .bgim{
@@ -27,19 +33,6 @@ body{
 	object-fit: cover;
 	vertical-align: middle;
 }
-.profile-name{
-		width: 90%;
-		height: auto;
-		margin-top: -55px;
-		margin-left: 20px;
-	}
-	.pr-detail{
-		width: 90%;
-		height: auto;
-		margin-left: 20px;
-		margin-top: 15px;
-		padding: 10px 10px 10px 0px;
-	}
 	.pr-skill{
 		width: 90%;
 		height: auto;
@@ -52,14 +45,6 @@ body{
 		margin-left: 15px;
 		margin-top: 15px;
 	}
-.pr-h{
-	font-family: "Roboto", sans-serif;
-	font-size: 30px;
-	text-align: left;
-	font-weight: 400;
-	line-height: 1.5;
-	color: #000!important;
-}
 
 
 .skill-im{
@@ -142,6 +127,10 @@ body{
 	color: #000!important;
 	line-height: 1.8;
 }
+.exp{
+	list-style-type: disc;
+	margin-left: -15px;
+}
 @media (min-width : 320px){
 	.w-h{
 		padding-left: 16px;
@@ -173,18 +162,32 @@ body{
 	.section-profile{
 		width: 95%;
 		height: auto;
-		margin: 12px;
+		margin: 10px;
 		background-color: #ffffff;
 		box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 	}
 	.section-data{
 		width: 95%;
 		height: autp;
-		margin: 12px;
+		margin: 10px;
 		background-color: #ffffff;
 		box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 	}
-	
+	.profile-name{
+		width: 90%;
+		height: auto;
+		margin-top: -55px;
+		margin-left: 20px;
+	}
+	.pr-h{
+		font-family: "Roboto", sans-serif;
+		font-size: 30px;
+		text-align: left;
+		font-weight: 400;
+		line-height: 1.5;
+		/*color: #000!important;*/
+		color: red!important;
+	}
 }
 @media (min-width: 480px){
 	.w-h{
@@ -228,7 +231,20 @@ body{
 		background-color: #ffffff;
 		box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 	}
-	
+	.profile-name{
+		width: 90%;
+		height: auto;
+		margin-top: -55px;
+		margin-left: 20px;
+	}
+	.pr-h{
+		font-family: "Roboto", sans-serif;
+		font-size: 30px;
+		text-align: left;
+		font-weight: 400;
+		line-height: 1.5;
+		color: #000!important;
+	}
 }
 @media (min-width: 576px){
 	.w-h{
@@ -273,7 +289,21 @@ body{
 		background-color: #ffffff;
 		box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 	}
-	
+	.profile-name{
+		width: 90%;
+		height: auto;
+		margin-top: -55px;
+		margin-left: 0px;
+	}
+	.pr-h{
+		font-family: "Roboto", sans-serif;
+		font-size: 21px;
+		text-align: left;
+		font-weight: 400;
+		line-height: 1.9;
+		/*color: #000!important;*/
+		color: red!important;
+	}
 }
 @media (min-width: 798px) {
 	.w-h{
@@ -317,7 +347,20 @@ body{
 		background-color: #ffffff;
 		box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 	}
-	
+	.profile-name{
+		width: 90%;
+		height: auto;
+		margin-top: -55px;
+		margin-left: 2px;
+	}
+	.pr-h{
+		font-family: "Roboto", sans-serif;
+		font-size: 29px;
+		text-align: left;
+		font-weight: 400;
+		line-height: 1.4;
+		color: #000!important;
+	}
 }
 @media (min-width: 992px) {
 	.w-h{
@@ -361,7 +404,21 @@ body{
 		background-color: #ffffff;
 		box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 	}
-	
+	.profile-name{
+		width: 90%;
+		height: auto;
+		margin-top: -55px;
+		margin-left: 10px;
+	}
+	.pr-h{
+		font-family: "Roboto", sans-serif;
+		font-size: 29px;
+		text-align: left;
+		font-weight: 400;
+		line-height: 1.0;
+		/*color: #000!important;*/
+		color: red!important;
+	}
 }
 
 @media (min-width: 1200px) {	
@@ -408,5 +465,18 @@ body{
 		background-color: #ffffff;
 		box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 	}	
-
+	.profile-name{
+		width: 90%;
+		height: auto;
+		margin-top: -45px;
+		margin-left: 10px;
+	}
+	.pr-h{
+		font-family: "Roboto", sans-serif;
+		font-size: 29px;
+		text-align: left;
+		font-weight: 400;
+		line-height: 1.2;
+		color: #000!important;
+	}
 }
